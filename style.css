@@ -14,26 +14,29 @@ body {
 
   color: #f1f2f6;
 }
+
 .lista-de-compras {
   width: 1200px;
   border-radius: 1.5rem;
 
   border: 1px solid #2f3279;
   overflow-y: hidden;
-  
+
 }
+
 .head-top {
   height: 120px;
   width: auto;
-  display:1;
+  display: 1;
   background-color: springgreen;
   text-align: center;
   line-height: 90px;
   font-size: 50px;
   font-weight: 800;
   color: black;
-    
+
 }
+
 .button-addProducts {
   height: 80px;
   display: flex;
@@ -43,44 +46,56 @@ body {
 
 
 }
+
 button {
-height: 35px;
- margin: 1px;
- border-radius: 15px;
+  height: 35px;
+  margin: 1px;
+  border-radius: 15px;
 }
+
 .itensAdd {
-  height:30px;
+  height: 30px;
   width: 350px;
   margin: 1px;
   border-radius: 30px;
 }
+
 .list-area {
-  height: 800px;
-  
-  display: flex;
+  height: 600px;
+  width: auto;
+  column-count: 3;
+
+  column-rule: 1px solid gray;
+  display: block;
   background-color: brown;
   flex-direction: column;
   padding: 20px;
-}
-.itens {
 
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
   font-size: 30px;
   font-weight: 700;
 }
+
+.itens {
+
+  display: none;
+
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 30px;
+  font-weight: 700;
+}
+
 input.itens-checks {
-  
+
   margin-right: 10px;
   align-items: center;
 }
+
 .showItens {
   display: flex;
 
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: 30px;
   font-weight: 700;
 }

@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Compras</title>
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-<div class="lista-de-compras">
-    <div class="head-top">Minha Lista de Compras</div>
-    <div class="button-addProducts">
-        
-      <input type="text" name="amount" class="itensAdd" placeholder="Adicione o produto" required />
-      <button type="submit" class="submit"> adicionar</button>
+    <div class="lista-de-compras">
+        <div class="head-top">Minha Lista de Compras</div>
+        <div class="button-addProducts">
+
+            <input type="text" name="amount" class="itensAdd" placeholder="Adicione o produto" required />
+            <button type="submit" class="submit"> adicionar</button>
+        </div>
+        <div class="list-area">
+            <div class="itens">
+                <input type="checkbox" class="itens-checks" name="compras" />
+                <label for="compras" class="compras">Compras aqui</label>
+
+            </div>
+        </div>
     </div>
-    <div class="list-area">
-        <div class="itens">
-        <input type="checkbox" class="itens-checks" name="compras" />
-        <label for="compras">Compras aqui</label>
-      
-    </div>
-    </div>
-</div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
